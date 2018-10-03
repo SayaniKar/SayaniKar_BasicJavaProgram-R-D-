@@ -1,0 +1,9 @@
+package com.capgemini.Bank;
+
+public class CurrentAccount extends BankAccount{
+	public void withdraw(double amount)
+
+	{
+	System.out.println("Current Account is called");
+	}
+}

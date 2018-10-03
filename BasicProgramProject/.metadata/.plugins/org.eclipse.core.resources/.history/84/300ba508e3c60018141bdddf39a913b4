@@ -1,0 +1,16 @@
+package com.capgemini.Bank;
+/**
+ * 
+ * @author sayakar
+ * @created on 3.10.2018
+ *
+ */
+public class SavingsAccount extends BankAccount{
+	
+	public static void main(String args[])
+	{
+		SavingsAccount s1=new SavingsAccount();
+		System.out.println(s1);
+	}
+
+}

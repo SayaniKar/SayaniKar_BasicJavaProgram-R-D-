@@ -1,0 +1,10 @@
+package com.capgemini.Bank;
+
+public interface Insurance {
+	public void getInsuranceName();
+	public void getInsuranceAmount();
+	
+		
+	
+
+}

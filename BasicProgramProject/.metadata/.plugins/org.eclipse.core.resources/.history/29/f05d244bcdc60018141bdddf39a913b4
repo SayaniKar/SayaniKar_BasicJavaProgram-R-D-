@@ -1,0 +1,11 @@
+package com.capgemini.Bank;
+
+/**this comment is for Documentation based comment
+ * 
+ * @author sayakar
+ * @since 3.10.2018
+ *
+ */
+public class BankAccount {
+
+}

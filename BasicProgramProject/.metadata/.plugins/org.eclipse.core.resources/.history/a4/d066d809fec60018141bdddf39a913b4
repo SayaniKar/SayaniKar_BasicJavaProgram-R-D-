@@ -1,0 +1,9 @@
+package com.capgemini.Bank;
+
+public class CurrentAccountInsurance extends CurrentAccount implements Insurance {
+	public static void mian(String args[])
+	{
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.capgemini.Bank;
+
+public class CurrentAccountInsurance extends CurrentAccount implements Insurance {
+	
+
+}

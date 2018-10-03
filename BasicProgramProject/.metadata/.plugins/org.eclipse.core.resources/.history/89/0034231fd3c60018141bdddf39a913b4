@@ -1,0 +1,39 @@
+package com.capgemini.Bank;
+
+/**this comment is for Documentation based comment
+ * 
+ * @author sayakar
+ * @since 3.10.2018
+ *
+ */
+public class BankAccount {
+	//Encapsulation Concept is added
+	int accountNo;
+	String accountHolderName;
+	double accountBalance;
+ static int autoAccountNoGenerator;
+	public BankAccount() {
+		//super();
+		accountNo=1;
+		accountHolderName="unknown";
+		accountBalance=0;
+		
+	}
+	//constructor Overloading
+	/*public BankAccount(int accountNo, String accountHolderName,
+			double accountBalance) {
+		super();
+		this.accountNo = accountNo;
+		this.accountHolderName = accountHolderName;
+		this.accountBalance = accountBalance;
+	}*/
+	public BankAccount(String accountHolderName, double accountBalance) {
+		super();
+		this.accountHolderName = accountHolderName;
+		this.accountBalance = accountBalance;
+	}
+	//Static Varaible
+	
+	
+
+}

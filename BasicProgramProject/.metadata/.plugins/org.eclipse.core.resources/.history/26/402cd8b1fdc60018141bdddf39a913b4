@@ -1,0 +1,53 @@
+package com.capgemini.Bank;
+/**
+ * 
+ * @author sayakar
+ * @created on 3.10.2018
+ *
+ */
+public class SavingsAccount extends BankAccount implements Insurance{
+	
+	/*public SavingsAccount()
+	{
+		
+	}
+	/*public SavingsAccount(String accountHolderName, double accountBalance) {
+		super();
+		accountNo=++autoAccountNoGenerator;
+		this.accountHolderName = accountHolderName;
+		this.accountBalance = accountBalance;
+	}*/
+	/*public static void main(String args[])
+	{
+		SavingsAccount s1=new SavingsAccount();
+	//BankAccount s2=new BankAccount();
+		BankAccount s2=new BankAccount("sa",5000);
+		BankAccount s3=s2;
+		s1.deposit(5000);
+		s2.deposit(2000);
+	System.out.println(s1);
+	System.out.println(s2);
+	System.out.println(s3);
+	}*/
+	public void withdraw(double amount)
+	{
+		System.out.println("Salary Account is Called");
+	}
+	public void isSalaryAccount()
+	
+	{
+		
+		System.out.println("Salary Account");
+	}
+	@Override
+	public String getInsuranceName() {
+		// TODO Auto-generated method stub
+		return "JeevanBima";
+	}
+	@Override
+	public double getInsuranceAmount() {
+		// TODO Auto-generated method stub
+		return 200000;
+	}
+
+}
