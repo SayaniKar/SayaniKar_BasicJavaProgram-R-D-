@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.capgemini.JunitAssignment.CarTest" time="0.104" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\BasicProgramProject\JunitAssignment\target\test-classes;D:\BasicProgramProject\JunitAssignment\target\classes;C:\Users\sayakar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sayakar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sayakar\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sayakar\AppData\Local\Temp\surefire8232268465177362783\surefirebooter5795467763463764814.jar C:\Users\sayakar\AppData\Local\Temp\surefire8232268465177362783 2018-10-11T12-58-35_639-jvmRun1 surefire1520949748251777581tmp surefire_02938067903324418960tmp"/>
+    <property name="surefire.test.class.path" value="D:\BasicProgramProject\JunitAssignment\target\test-classes;D:\BasicProgramProject\JunitAssignment\target\classes;C:\Users\sayakar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sayakar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\sayakar\.m2\repository\org\mockito\mockito-all\1.10.19\mockito-all-1.10.19.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sayakar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="basedir" value="D:\BasicProgramProject\JunitAssignment"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sayakar\AppData\Local\Temp\surefire8232268465177362783\surefirebooter5795467763463764814.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="sayakar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sayakar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sayakar\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="D:\BasicProgramProject\JunitAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\app\sccmimage\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;D:\MongoDB\Server\3.0\bin;C:\Users\sayakar\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="start_NoFuel" classname="com.capgemini.JunitAssignment.CarTest" time="0.097"/>
+  <testcase name="start" classname="com.capgemini.JunitAssignment.CarTest" time="0"/>
+  <testcase name="start_DidNotStart" classname="com.capgemini.JunitAssignment.CarTest" time="0.005">
+    <failure message="&#10;Expected: (an instance of java.lang.IllegalStateException and exception with message a string containing &quot;Started engine but isn&apos;t running&quot;)&#10;     but: exception with message a string containing &quot;Started engine but isn&apos;t running&quot; message was &quot;Engine started but is not Running&quot;&#10;Stacktrace was: java.lang.IllegalStateException: Engine started but is not Running&#10;	at com.capgemini.JunitAssignment.Car.start(Car.java:25)&#10;	at com.capgemini.JunitAssignment.CarTest.start_DidNotStart(CarTest.java:74)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:168)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.IllegalStateException and exception with message a string containing "Started engine but isn't running")
+     but: exception with message a string containing "Started engine but isn't running" message was "Engine started but is not Running"
+Stacktrace was: java.lang.IllegalStateException: Engine started but is not Running
+	at com.capgemini.JunitAssignment.Car.start(Car.java:25)
+	at com.capgemini.JunitAssignment.CarTest.start_DidNotStart(CarTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:168)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+
+</failure>
+  </testcase>
+  <testcase name="isRunning" classname="com.capgemini.JunitAssignment.CarTest" time="0"/>
+  <testcase name="start_IsRunning" classname="com.capgemini.JunitAssignment.CarTest" time="0.002">
+    <failure message="&#10;Expected: (an instance of java.lang.IllegalStateException and exception with message a string containing &quot;already running&quot;)&#10;     but: exception with message a string containing &quot;already running&quot; message was &quot;Engine already Running&quot;&#10;Stacktrace was: java.lang.IllegalStateException: Engine already Running&#10;	at com.capgemini.JunitAssignment.Car.start(Car.java:16)&#10;	at com.capgemini.JunitAssignment.CarTest.start_IsRunning(CarTest.java:65)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.lang.reflect.Method.invoke(Method.java:498)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:168)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.IllegalStateException and exception with message a string containing "already running")
+     but: exception with message a string containing "already running" message was "Engine already Running"
+Stacktrace was: java.lang.IllegalStateException: Engine already Running
+	at com.capgemini.JunitAssignment.Car.start(Car.java:16)
+	at com.capgemini.JunitAssignment.CarTest.start_IsRunning(CarTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:168)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+
+</failure>
+  </testcase>
+</testsuite>
